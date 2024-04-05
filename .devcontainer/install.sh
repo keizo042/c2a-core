@@ -1,5 +1,5 @@
 sudo apt update -y
-sudo apt install -y  gcc-multilib clang
+sudo apt install -y  gcc-multilib clang protobuf-compiler libclang-dev cmake g++ g++-multilib
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source "$HOME/.nvm/nvm.sh"  # This loads nvm
 nvm install node
